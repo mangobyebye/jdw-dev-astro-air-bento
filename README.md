@@ -7,7 +7,7 @@ A minimalism, personal blog theme for Astro, which inspired by [Astro Air](https
 [![Built with Astro](https://astro.badg.es/v1/built-with-astro/tiny.svg)](https://astro.build)
 [![Netlify Status](https://api.netlify.com/api/v1/badges/a4eb6e88-606d-4ea6-9a53-179e03a7e2ef/deploy-status)](https://app.netlify.com/sites/astro-air-bento/deploys)
 
-<img style="border-radius: 10px;" src="https://cdn.jsdelivr.net/gh/sun0225SUN/astro-air/public/preview.png" alt="Astro Air">
+<img style="border-radius: 10px;" src="https://cdn.jsdelivr.net/gh/deventw/astro-air-bento@master/public/preview.png" alt="Astro Air Bento">
 
 ## Showcase
 
