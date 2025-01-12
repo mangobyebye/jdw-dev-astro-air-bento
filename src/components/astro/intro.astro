@@ -1,0 +1,20 @@
+---
+import IntroContentEn from "~/config/en/intro.mdx"
+import IntroContentZh from "~/config/zh/intro.mdx"
+import { getLangFromUrl } from "~/i18n/utils"
+
+const lang = getLangFromUrl(Astro.url)
+const IntroContent = lang === "zh" ? IntroContentZh : IntroContentEn
+---
+
+<div class="mt-4 px-4 py-2" style={{
+  background: 'rgba(255, 255, 255, 0.1)',
+   borderRadius: '16px',
+   boxShadow: '0 4px 30px rgba(0, 0, 0, 0.1)',
+   backdropFilter: 'blur(0.2px)',
+   WebkitBackdropFilter: 'blur(0.2px)', // Necessary for Safari support
+   border: '1px solid rgba(255, 255, 255, 0.2)'
+}}
+>
+  <IntroContent />
+</div>

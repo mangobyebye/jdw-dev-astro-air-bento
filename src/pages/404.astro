@@ -1,0 +1,27 @@
+---
+import MainLayout from "~/layouts/main.astro"
+---
+
+<MainLayout title="404" description="Error 404 page not found." noindex={true}>
+  <section class="flex min-h-[60vh] items-center justify-center mt-4"
+  style={{
+    background: 'rgba(255, 255, 255, 0.1)',
+    borderRadius: '16px',
+    boxShadow: '0 4px 30px rgba(0, 0, 0, 0.1)',
+    backdropFilter: 'blur(0.2px)',
+    WebkitBackdropFilter: 'blur(0.2px)', // Necessary for Safari support
+    border: '1px solid rgba(255, 255, 255, 0.2)',
+  }}
+  >
+    <div class="mx-auto max-w-xl px-4 text-center">
+      <h1 class="text-9xl font-bold text-gray-900 dark:text-gray-100">404</h1>
+
+      <div class="mt-4 text-gray-600 dark:text-gray-400">
+        <div class="h2 mb-4">Oops! Page not found</div>
+        <p class="text-lg">
+          The page you're looking for doesn't exist or has been moved.
+        </p>
+      </div>
+    </div>
+  </section>
+</MainLayout>

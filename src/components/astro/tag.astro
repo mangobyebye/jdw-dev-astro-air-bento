@@ -1,0 +1,51 @@
+---
+import { getLangFromUrl, useTranslations } from "~/i18n/utils"
+import MainLayout from "~/layouts/main.astro"
+import PostList from "./post-list.astro"
+
+interface Props {
+  posts: any[]
+  tag: string
+}
+
+const { posts, tag } = Astro.props
+
+const lang = getLangFromUrl(Astro.url)
+const t = useTranslations(lang)
+
+const filteredPosts = posts.filter((post: any) => post.data.tags?.includes(tag))
+---
+
+<MainLayout>
+  <div
+  class="mt-4 p-4"
+  style={{
+    background: 'rgba(255, 255, 255, 0.1)',
+    borderRadius: '16px',
+    boxShadow: '0 4px 30px rgba(0, 0, 0, 0.1)',
+    backdropFilter: 'blur(0.2px)',
+    WebkitBackdropFilter: 'blur(0.2px)', // Necessary for Safari support
+    border: '1px solid rgba(255, 255, 255, 0.2)',
+  }}
+  >
+
+    <div class="text-2xl font-semibold">#{tag}</div>
+    
+    {
+      filteredPosts.length > 0 ? (
+        <ul class="space-y-4">
+        {filteredPosts.map((post: any) => (
+          <PostList
+          post={post}
+          lang={lang}
+          dateFormat="YYYY-MM-DD"
+          dateWidth="w-32"
+          />
+        ))}
+      </ul>
+    ) : (
+      <p class="text-gray-500">{t("tag.no_posts")}</p>
+    )
+  }
+  </div>
+</MainLayout>
