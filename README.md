@@ -15,7 +15,7 @@ A minimalism, personal blog theme for Astro, which inspired by [Astro Air](https
 - [Guoqi's blog](https://blog.sunguoqi.com)
 - ...
 
-> welcome to add your own blog to the list by creating PR
+> Welcome to add your own blog to the list by creating 🅿🆁
 
 ## Features
 
@@ -35,9 +35,9 @@ A minimalism, personal blog theme for Astro, which inspired by [Astro Air](https
 
 ## Quick Start
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/sun0225SUN/astro-air)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/deventw/astro-air-bento)
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/sun0225SUN/astro-air)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/deventw/astro-air-bento)
 
 ## Configuration
 
