@@ -1,5 +1,7 @@
 # Astro Air Bento
 
+[Astro Theme Details](https://astro.build/themes/details/astro-air-bento/)
+
 A minimalism, personal blog theme for Astro, which inspired by [Astro Air](https://astro-air.guoqi.dev).
 
 > If you find this project helpful, please consider giving it a star ⭐️
