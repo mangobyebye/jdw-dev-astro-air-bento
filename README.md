@@ -32,9 +32,9 @@ A minimalism, personal blog theme for Astro, which inspired by [Astro Air](https
 - [x] 📰 RSS feed & sitemap support
 - [x] 🛠️ Google analysis integration
 - [x] 💬 Commenting Integration (Twikoo)
-<!-- - [ ] 🔍 Local search functionality -->
-<!-- - [ ] 🎨 Enhance Transition and Animation -->
-<!-- - [ ] ...and more -->
+  <!-- - [ ] 🔍 Local search functionality -->
+  <!-- - [ ] 🎨 Enhance Transition and Animation -->
+  <!-- - [ ] ...and more -->
 
 ## Quick Start
 
