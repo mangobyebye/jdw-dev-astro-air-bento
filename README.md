@@ -11,6 +11,7 @@ A minimalism, personal blog theme for Astro, which inspired by [Astro Air](https
 
 ## Showcase
 
+- [Astro Air Bento](https://astro-air-bento.netlify.app)
 - [Astro Air](https://astro-air.guoqi.dev)
 - [Guoqi's blog](https://blog.sunguoqi.com)
 - ...
@@ -89,9 +90,9 @@ git clone https://github.com/deventw/astro-air-bento
 
 cd astro-air-bento
 
-pnpm install
+bun install
 
-pnpm dev
+bun dev
 ```
 
 ## License
