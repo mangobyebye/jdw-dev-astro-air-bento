@@ -1,14 +1,14 @@
 import { useEffect } from "react"
 // @ts-ignore
 import twikoo from "twikoo"
-import { common, defaultLanguage } from "~/config"
+import { common } from "~/config"
 
 const Twikoo = () => {
   useEffect(() => {
     twikoo({
       envId: common.comments.twikoo.envId,
       el: "#tcomment",
-      lang: defaultLanguage === "zh" ? "zh-CN" : "en-GB",
+      lang: "en-GB",
     }).then(() => {
       console.log("comment loading success")
     })

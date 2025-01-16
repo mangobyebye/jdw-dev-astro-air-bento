@@ -1,9 +1,9 @@
 import rss from "@astrojs/rss"
-import { zh as config } from "~/config"
+import { en as config } from "~/config"
 import { getPostsByLocale } from "~/utils"
 
 export async function GET() {
-  const posts = await getPostsByLocale("zh")
+  const posts = await getPostsByLocale("en")
 
   return rss({
     title: config.meta.title,

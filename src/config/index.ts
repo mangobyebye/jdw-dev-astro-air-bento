@@ -1,5 +1,3 @@
-import { Github, Twitter } from "lucide-react"
-
 export const defaultLanguage: string = "en"
 
 export const common = {
@@ -10,16 +8,16 @@ export const common = {
   },
   googleAnalyticsId: "",
   social: [
-    {
-      icon: Twitter,
-      label: "X",
-      link: "https://x.com/",
-    },
-    {
-      icon: Github,
-      label: "GitHub",
-      link: "https://github.com/",
-    },
+    // {
+    //   icon: Twitter,
+    //   label: "X",
+    //   link: "https://x.com/",
+    // },
+    // {
+    //   icon: Github,
+    //   label: "GitHub",
+    //   link: "https://github.com/",
+    // },
   ],
   rss: true,
   navigation: {
@@ -40,46 +38,14 @@ export const common = {
   },
 }
 
-export const zh = {
-  ...common,
-  siteName: "霍洛",
-  meta: {
-    ...common.meta,
-    title: "霍洛",
-    slogan: "一位探索者",
-    description: "藝術、科技、設計、旅行",
-  },
-  navigation: {
-    ...common.navigation,
-    custom: [],
-  },
-  pageMeta: {
-    archive: {
-      title: "歸檔",
-      description: "霍洛的所有文章",
-      ogImage: "/images/page-meta/zh/archive.png",
-    },
-    links: {
-      title: "朋友們",
-      description: "霍洛的朋友們",
-      ogImage: "/images/page-meta/zh/links.png",
-    },
-    about: {
-      title: "關於我",
-      description: "霍洛的自我介紹",
-      ogImage: "/images/page-meta/zh/about.png",
-    },
-  },
-}
-
 export const en = {
   ...common,
-  siteName: "Holo",
+  siteName: "jdw.dev",
   meta: {
     ...common.meta,
-    title: "Holo",
-    slogan: "An Explorer",
-    description: "Art, Technology, Design, Traveling",
+    title: "jdw.dev",
+    slogan: "Software Engineer",
+    description: "Software, Technology, Cooking",
   },
   navigation: {
     ...common.navigation,

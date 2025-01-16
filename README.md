@@ -48,7 +48,7 @@ A minimalism, personal blog theme for Astro, which inspired by [Astro Air](https
 
 - Open `src/config/links.ts` and customize your site links
 
-- Open `src/config/zh(en)/about.mdx(intro.mdx、links.mdx)` and customize your pages content
+- Open `src/config/en/about.mdx(intro.mdx、links.mdx)` and customize your pages content
 
 ## Writing Content
 
